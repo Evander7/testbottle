@@ -1,4 +1,5 @@
 from bottle import Bottle, route, run
+from sys import argv
 
 app = Bottle()
 
@@ -8,4 +9,4 @@ def index():
 <h3>"hello Wooooorld"</h3>
 
 ''')
-run(app, port=8080)
+run(app, port=argv[1])
