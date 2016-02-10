@@ -1,1 +1,1 @@
-web: python testingbottle.py $PORT
+web: python testingbottle.py
