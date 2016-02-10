@@ -9,4 +9,4 @@ def index():
 <h3>"hello Wooooorld"</h3>
 
 ''')
-run(app)
+run(app, port=argv[1])
